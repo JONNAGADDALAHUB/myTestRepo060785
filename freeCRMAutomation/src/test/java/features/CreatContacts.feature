@@ -12,5 +12,5 @@ Then user provides contact details as "<firstname>" and "<lastname>" and "<posit
 And close the browser
 
 Examples:
-| username 		| password 		| firstname | lastname     | position          |
-| ravikumarj  	| Loginpwd369@ 	| Ravikumar | Jonnagaddala | Automation Tester |
+| username 		| password 		| firstname | lastname     | position          			|
+| ravikumarj  	| Loginpwd369@ 	| Ravikumar | Jonnagaddala | Senior Automation Engineer |
