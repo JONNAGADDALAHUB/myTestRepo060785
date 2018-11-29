@@ -1,0 +1,7 @@
+Parallel02IT.class
+stepdefinitions\DealsStepDefinitions.class
+stepdefinitions\Login_Stepdefinitions.class
+Parallel01IT.class
+stepdefinitions\AbstractStepdefinitions.class
+Runner\TestRunner.class
+Parallel03IT.class

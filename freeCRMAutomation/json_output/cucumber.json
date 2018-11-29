@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Free CRM Deals test scenario",
+        "description": "",
+        "id": "free-crm-deals-feature;free-crm-deals-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8673702548,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is displayed with login page",
+            "match": {
+              "location": "Login_Stepdefinitions.user_is_displayed_with_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17144790,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login page title is free CRM",
+            "match": {
+              "location": "Login_Stepdefinitions.login_page_title_is_free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 499054137,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"naveenk\" and \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveenk",
+                  "offset": 13
+                },
+                {
+                  "val": "test@123",
+                  "offset": 27
+                }
+              ],
+              "location": "Login_Stepdefinitions.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 179023027,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login Button",
+            "match": {
+              "location": "Login_Stepdefinitions.user_clicks_on_login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25431884,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "users lands on home page",
+            "match": {
+              "location": "Login_Stepdefinitions.users_lands_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2609396221,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user navigates to new deal page",
+            "match": {
+              "location": "DealsStepDefinitions.user_navigates_to_new_deal_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3947564764,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user provides deal details",
+            "match": {
+              "location": "DealsStepDefinitions.user_provides_deal_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "TestdealTitle",
+                  "500",
+                  "10",
+                  "12"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 896057912,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "close the browser",
+            "match": {
+              "location": "Login_Stepdefinitions.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Deals feature",
+    "description": "",
+    "id": "free-crm-deals-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Deals.feature"
+  }
+]
